@@ -1,0 +1,98 @@
+
+/*breadcrumb-option*/
+.breadcrumb-option{
+    padding: 140px;
+
+}
+.section-title h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Arima Madurai", cursive;
+    margin-bottom: 20px;
+}
+.section-title p{
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+/*breadcrumb-option*/
+/*album*/
+.album{
+    margin-top: 100px;
+    padding-right: 40px;
+}
+  .album img{
+    min-width: 100%;
+    border-radius: 5px;
+  }
+.album p{
+    color:#7a7878;
+}
+.album p span{
+    color: black;
+}
+.album h4{
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 1.2;
+}
+.album .view {
+    margin-top: 20px;
+}
+@media(max-width:786px){
+    .album .first img{
+       width: 50px;
+
+       
+    }
+    .section-title h2{
+        font-size: 19px;
+    }
+
+
+}
+@media(min-width:786px){
+    .album .first img {
+       width: 20px;
+       
+       
+    }
+}
+.album .view .primary-btn{
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #d48f4c;
+    padding: 15px 41px 14px;
+    color: #353535;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.footer .high p span{
+    color: #cc1111;
+}
+.footer .high .ghl{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #e1e1e1;
+	font-size: 15px;
+	color: #747e8c;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 11px;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+    transition: all, 0.3s;
+    margin-bottom: 100px;
+    
+}
+.footer .high .ghl:hover{
+    border-color: #d48f4c;
+    background-color: #d48f4c;
+    color: #fff;
+}
+.footer .high .colarlib{
+    color:#d48f4c ;
+    text-decoration: none;
+}

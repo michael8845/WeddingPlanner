@@ -1,0 +1,30 @@
+body{
+    height: 120000px;
+}
+.story .first-image img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.story .first-image h3{
+    margin-bottom: 20px;
+}
+.story .first-image p {
+    color: #7a7878;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.story .first-image a{
+    color: black;
+    letter-spacing: 22px;
+}
+.love .time h2{
+    margin-top: -55px;
+
+}
+
+.love  .first{
+    color: #d5904b;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
