@@ -111,6 +111,10 @@ li {
 .event .section-one h2{
     margin-bottom: 15px;
 }
+.event .section-one img{
+    height: 150px;
+    width: 150px;
+}
 .event .section-one p{
     margin-top: 15px;
     color: #7a7878;
@@ -124,6 +128,10 @@ li {
 .event .section-two{
     position: relative;
     top: -100px;
+}
+.event .section-two img{
+    height: 500px;
+    width: 500px;
 }
 .event p{
     margin-top: -50px;
@@ -202,6 +210,7 @@ li {
 .gallery {
 	overflow: hidden;
 	margin: 0 60px;
+    
 }
 
 .gallery .section-title {
@@ -288,6 +297,7 @@ li {
 	text-align: center;
 }
 
+
 .event__item .event__item__icon {
 	margin-bottom: 80px !important;
 	position: relative;
@@ -326,6 +336,17 @@ li {
 	font-weight: 700;
 	margin-bottom: 15px;
 }
+.event__item a{
+    text-decoration: none;
+    color: #353535;
+    padding-bottom: 20px;
+  
+}
+.event__item a:hover{
+    text-decoration: none;
+    color: darkkhaki;
+}
+
 
 /* rsvp*/
 
@@ -333,7 +354,7 @@ li {
     margin-top: 200px;
 }
 .rsvp-form{
-    background-color: #ffffff;
+    background-color: red;
     padding: 50px 80px 40px;
     margin-top: -60px;
     -webkit-box-shadow: 0px 5px 30px rgba(53, 53, 53, 0.06);
